@@ -27,6 +27,8 @@ async def on_message(message):
         await message.channel.send("Bot Version: " + str(VERSION) + "\n" )
     if message.content == "/pp":
         await message.channel.send(message.channel, file=discord.File("/images/pp.gif","pp.gif"))
+    if message.content == "/pizza":
+        await message.channel.send(get_next_pizza_party() )
 
 def get_help_text():
     res = "Pastime Bot ver" + str(VERSION) + "\n"
