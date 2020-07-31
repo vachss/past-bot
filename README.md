@@ -1,3 +1,5 @@
 使い方
 
-envfile.txtにTOKENとチャンネルID入れて `bash start.sh`
+1. `bash getimg.sh` 
+2. envfile.txtにTOKENとチャンネルID入れて `bash start.sh`
+
