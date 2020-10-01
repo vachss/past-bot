@@ -45,6 +45,6 @@ def get_next_pizza_party():
         return "Tomorrow!"
     else:
         np = now + datetime.timedelta(days=(5-now.weekday())%7)
-        return np.strftime("%Y/%M/%D (Sat) !")
+        return np.strftime("%Y/%m/%d (%a) !")
 
 client.run(TOKEN)
